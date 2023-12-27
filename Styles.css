@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.b4dc61c421f0bc2ec32ca518dd2a4a85?rik=LWgZJkNo3qgkEA&riu=http%3a%2f%2favante.biz%2fwp-content%2fuploads%2fTwo-colours-wallpaper%2fTwo-colours-wallpaper19.jpg&ehk=li%2blV%2fp4kArUWndKK4SDAlkW5UPRGILwUHVYqKejNh0%3d&risl=&pid=ImgRaw&r=0);
+    color: white;
+}
+
+
+/**Beginning of navbar**/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 20px 100px;
+}
+
+.logo-container {
+    font-size: 24px;
+    color: #F5F5DC;
+}
+
+.logo-container i {
+    font-size: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    background: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #F5F5DC;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul li ul.dropdown li {
+    width: 100%;
+    background: rebeccapurple;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+ul li ul.dropdown {
+    display: block;
+}
+
+.buttons button {
+    border-radius: 5px;
+}
+
+.login {
+    background-color: none;
+    padding: 5px 15px;
+    color: #00b894;
+    border: 2px solid #00b894;
+    margin-right: 10px;
+}
+
+.start-free {
+    color: white;
+    border: 2px solid #00b894;
+    background-color: #00b894;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+/**End of navbar**/
+
+/**Beginning of Pricing-tags**/
+
+.grid-body {
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    margin: 0;
+}
+
+.grid-container {
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+    height: 30rem;
+    width: 50rem;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.grid-item {
+    margin-top: 20px;
+}
+
+.grid-item h5 {
+    color: #F5F5DC;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+
+#toggle-button {
+    position: relative;
+    bottom: -0.2em;
+    margin: 0 10px;
+    font-size: 1.7rem;
+    color: #00b894;
+}
+
+.right {
+    margin-left: 170px;
+}
+
+#month {
+    color: #F5F5DC;
+    padding-left: 78px;
+}
+
+.grid-items h3 {
+    color: #F5F5DC;
+}
+
+.pricing-tag {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(209, 215, 220);
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 60px 30px 10px 30px;
+    border: none;
+}
+
+.pricing-tag h6 {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.pricing-tag h2 {
+    padding: 16px 0;
+    font-size: 2rem;
+}
+
+#dollar {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    position: relative;
+    top: -0.5em;
+    margin-right: 5px;
+}
+
+.pricing-tag h2 span {
+    font-size: .75rem;
+    font-weight: lighter;
+}
+
+.popular {
+    position: absolute;
+    transform: rotate(50deg);
+    transform-origin: top right;
+    top: 130px;
+    right: -30px;
+    background-color: #00b894;
+    color: rgb(209, 215, 220);
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 5px 60px;
+    align-items: center;
+}
+
+.border-line {
+    border-top: 3px solid #00b894;
+    margin: 0 8px;
+}
+
+.comments {
+    margin: 30px 0;
+}
+
+.comments p {
+    margin-bottom: 10px;
+}
+
+.comments p span {
+    background-color: orange;
+    color: rgb(209, 215, 220);
+    padding-bottom: 2px;
+}
+
+.comments i {
+    color: #00b894;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-free {
+    color: rgb(209, 215, 220);
+    font-size: 1.2rem;
+    background-color: #00b894;
+    padding: 10px 60px;
+    border: none;
+}
+
+/**End of Pricing-tags**/
+
+/**Beginning of h1**/
+
+h1 {
+    text-align: center;
+    padding: 100px 0 60px 0;
+}
+
+/**End of h1**/
+
+/**Beginning of column-direction**/
+
+.column-direction {
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(209, 215, 220);
+    margin: 10px 20rem;
+    color: black;
+    border-radius: 9px;
+    padding: 20px 20px;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.right {
+    padding-top: 10px;
+}
+
+.right h3 {
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.float-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.float-right i {
+    font-size: .75rem;
+}
+
+/**End of column-direction**/
+
+/**Beginning of blue-container**/
+
+.blue-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    margin: 80px 20rem;
+    padding: 80px 40px;
+}
+
+h4 {
+    color: black;
+    font-size: 1.5rem;
+}
+
+h4 span {
+    color: #00b894;
+}
+
+.blue-container button {
+    color: white;
+    border: 2px solid #00b894;
+    background-color: #00b894;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+/**End of blue-container**/
+
+/**Beginning of Questions**/
+
+.questions {
+    align-items: center;
+}
+
+.questions h1 {
+    color: #00b894;
+}
+
+.selects {
+    padding-left: 450px;
+    padding-bottom: 100px;
+}
+
+.questions select {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+    padding-right: 20rem;
+    color: black;
+}
+
+/**End of Questions**/
+
+/**Beginning of footer**/
+
+.footer {
+    color: black;
+    display: flex;
+    justify-content: row;
+    background-color: #F5F5DC;
+    padding: 80px 0 40px 250px;
+}
+
+.row {
+    width: 30%;
+}
+
+.space {
+    padding-top: 20px;
+}
+
+.footer h2 {
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    padding: 5px 0;
+}
+
+.last {
+    padding-top: 20px;
+}
+
+#template {
+    padding-bottom: 15px;
+
+}
+
+#last-dropdowns,
+#comparisons {
+    border: none;
+    background-color: transparent;
+    padding: 5px 0 5px 0;
+    font-size: .9rem;
+}
+
+#pricing {
+    color: #00b894;
+}
+
+.black {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.black p {
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+/**End of footer**/
